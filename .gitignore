@@ -75,3 +75,5 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+yolov8/VisDrone_train_yolov8x_p2_bs1_epochs_100_imgsz_1280_last.pt
+yolov8/yolov8n.pt

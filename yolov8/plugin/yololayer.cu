@@ -1,11 +1,13 @@
-#include <assert.h>
-#include <math.h>
+#include "yololayer.h"
 #include <iostream>
+#include <assert.h>
+#include <cmath>
+#include <math.h>
 #include <vector>
 #include "cuda_utils.h"
 #include "types.h"
-#include "yololayer.h"
 
+using namespace std;
 namespace Tn {
 template <typename T>
 void write(char*& buffer, const T& val) {
